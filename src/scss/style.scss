@@ -1,3 +1,14 @@
-@import "reset";
+@import "./reset/reset";
+@import "./base/root";
+@import "./base/body";
+@import "./base/title";
+@import "./base/section";
+@import "./base/container";
 // Не видаляти, розкоментувати коли будуть імпортні шрифти
 // @import "fonts";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/our-services";
+@import "./layout/services-prices";
+@import "./layout/why-us";
+@import "./layout/footer";

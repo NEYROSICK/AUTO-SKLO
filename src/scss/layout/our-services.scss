@@ -1,0 +1,130 @@
+.why-us {
+  padding-bottom: 165px;
+}
+
+.why-tagline {
+  display: flex;
+  gap: 40px;
+}
+.why-tagline::before {
+  content: "";
+  margin-left: 30px;
+  width: 1.4px;
+  height: 60px;
+  background-color: rgba(31, 69, 207, 0.711);
+  transform: rotate(90deg);
+}
+@media screen and (min-width: 175px) {
+  .why-us-list-div {
+    margin-top: 44px;
+  }
+
+  .why-us-text {
+    height: 218px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--clr-primary);
+    margin-bottom: 44px;
+  }
+
+  .why-us-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .why-us-item {
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    height: 133px;
+    background-color: var(--clr-background-secondary);
+  }
+
+  .why-us-div {
+    position: relative;
+    display: flex;
+  }
+
+  .why-us-item-main-text {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 57px;
+  }
+
+  .why-us-item-secondary-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    width: 122px;
+    height: 30px;
+    color: var(--clr-primary-dark);
+  }
+
+  .why-plus {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(31, 69, 207, 0.711);
+  }
+}
+@media screen and (min-width: 336px) {
+  .why-us-text {
+    height: 148px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .why-us-item:nth-child(2n) {
+    transform: translateY(35px);
+  }
+
+  .why-us-text {
+    width: 418px;
+    height: 94px;
+  }
+  .why-us-list {
+    width: 418px;
+  }
+  .why-us-item {
+    flex-basis: unset;
+    width: 193px;
+    height: 133px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .why-us .tagline {
+    margin-bottom: 0;
+  }
+  .why-us .title {
+    width: 420px;
+  }
+  .why-us-list-div {
+    display: flex;
+    justify-content: end;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .why-us-list-div {
+    margin-top: 0;
+  }
+  .why-us-all {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 130px;
+  }
+}
+// .why-us-just-text {
+//   font-weight: 600;
+//   color: var(--clr-primary-dark);
+//   font-size: 15px;
+//   text-align: center;
+// }

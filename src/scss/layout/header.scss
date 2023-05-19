@@ -96,7 +96,17 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            color: #fff;
+            color: var(--clr-primary-inverted);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.09em;
+            text-transform: uppercase;
+            transition: background-color 100ms ease-in;
+        }
+        .header-btn:hover {
+            background-color: var(--clr-brand);
         }
     }
 

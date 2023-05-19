@@ -1,1 +1,79 @@
-<header><h1>Я ХЕДЕР</h1></header>
+<header class="header">
+  <div class="container">
+    <div class="desktop-header">
+      <h2 class="main-logo"><span class="logo">AUTO</span>SKLO</h2>
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="#our-services" class="nav-link">Our Services</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#services-prices" class="nav-link">Services Prices</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#why-us" class="nav-link">Why Us</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#contacts" class="nav-link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="address">
+        <a href="tel:+1111111111" class="address-link">+1 111 111 111</a>
+        <a href="tel:+1111111111" class="address-link">+1 111 111 111</a>
+      </address>
+    </div>
+    <div class="mobile-header">
+      <h2 class="main-logo"><span class="logo">AUTO</span>SKLO</h2>
+      <button class="mobile-btn js-open-menu" type="button">
+        <svg class="header-svg">
+          <use href="./img/icons/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="mobile-backdrop js-menu-container">
+  <div class="mobile-modal">
+    <button class="backdrop-button js-close-menu" type="button">
+      <svg class="backdrop-btn-svg">
+        <use href="./img/icons/icons.svg#icon-burger-close"></use>
+      </svg>
+    </button>
+    <nav class="mobile-nav">
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item">
+          <a href="#our-service" class="mobile-nav-link cool-gradient"
+            >Our Service</a
+          >
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#services-prices" class="mobile-nav-link">Services Prices</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#why-us" class="mobile-nav-link">Why Us</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="#contacts" class="mobile-nav-link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <address class="address-mobile">
+      <p class="gradient-text">Наш перший телефон:</p>
+      <a href="tel:+1111111111" class="mobile-address-link">+1 111 111 111</a>
+      <p class="gradient-text">Наш другий телефон:</p>
+      <a href="tel:+1111111111" class="mobile-address-link">+1 111 111 111</a>
+      <a
+        class="mobile-address-link"
+        href="https://goo.gl/maps/HDEvFqXz8guHACfHA"
+      >
+        <p class="gradient-text">
+          <svg class="map-svg">
+            <use href="./img/icons/icons.svg#icon-map"></use>
+          </svg>
+          Наше місце праці
+        </p>
+      </a>
+    </address>
+  </div>
+</div>

@@ -1,6 +1,5 @@
 .hero {
     padding: 208px 0px 183px;
-    height: 680px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.4)), url(../img/Slider-img-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -18,7 +17,7 @@
         }
         .hero-tagline {
             color: var(--clr-primary-inverted);
-            gap: 34px;
+            gap: 44px;
             margin-bottom: 0;
         }
         .hero-tagline::before {

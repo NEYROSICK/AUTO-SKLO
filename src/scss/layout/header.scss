@@ -7,10 +7,24 @@
         justify-content: space-between;
         align-items: center;
     }
+    .header-contacts-mobile:before {
+        content: "";
+        width: 1px;
+        height: 60px;
+        background-color: aqua;
+        transform: rotate(90deg);
+        margin-left: 32px;
+    }
+    .tagline {
+        gap: 40px;
+        margin-bottom: 0;
+    }
     .desktop-header {
         display: none;
     }
     .main-logo {
+        font-weight: 700;
+        font-size: 28px;
         color: var(--clr-primary-inverted);
         padding: 28px 0;
     }
@@ -36,19 +50,6 @@
     }
 
     @media screen and (min-width: 768px) {
-        .mobile-header {
-            display: none;
-        }
-        .desktop-header {
-            display: contents;
-        }
-        .container {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
-
         .nav-list {
             display: flex;
             flex-direction: row;
@@ -60,7 +61,6 @@
         }
 
         .nav-list-item {
-            padding: 28px 0;
             transition: color 100ms ease-in;
         }
 
@@ -87,20 +87,34 @@
         .address-link:hover {
             color: var(--clr-brand);
         }
+
+        .header-btn {
+            width: 151px;
+            height: 40px;
+            border: 1px solid #ff6c00;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
     }
 
     @media screen and (min-width: 1200px) {
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .mobile-header {
+            display: none;
+        }
+        .desktop-header {
+            display: contents;
+        }
         .nav-list {
             gap: 32px;
-        }
-
-        .address {
-            gap: 12px;
-            flex-direction: row;
-        }
-
-        .address-link {
-            padding: 28px 0;
         }
     }
 }
@@ -167,6 +181,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+
     font-weight: 600;
     font-size: 18px;
     line-height: 1.6;
@@ -183,10 +198,4 @@
     width: 20px;
     height: 20px;
     stroke: black;
-}
-
-.gradient-text {
-    background-image: linear-gradient(45deg, #ff5f6d, #ffc371);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }

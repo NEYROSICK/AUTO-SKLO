@@ -1,0 +1,64 @@
+table {
+  border-spacing: 5px;
+  overflow: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.services-prices-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(../img/car-wiper-with-sunset.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.services-prices-tagline {
+  color: var(--clr-secondary-transparent);
+}
+
+.services-prices-tagline::before {
+  content: "";
+  width: 60px;
+  height: 1.5px;
+  background-color: currentColor;
+}
+
+.services-prices-title {
+  color: var(--clr-primary-inverted);
+}
+
+.services-prices-list {
+  background: linear-gradient(180deg, #090b13b0 10%, rgba(9, 11, 19, 0.2) 100%);
+}
+
+.service {
+  padding: 10px 10px;
+  font-family: "Open Sans", sans-serif;
+  color: var(--clr-secondary);
+  text-align: center;
+  border-radius: 5px;
+  font-weight: inherit;
+  font-size: 12px;
+  line-height: 2.14;
+}
+
+@media (min-width: 768px) {
+  .service {
+    padding: 10px 20px;
+    font-size: inherit;
+  }
+}
+
+@media (min-width: 1200px) {
+  .service {
+    font-size: 18px;
+    line-height: 1.62;
+    padding: 10px 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .service-name {
+    text-align: left;
+  }
+}

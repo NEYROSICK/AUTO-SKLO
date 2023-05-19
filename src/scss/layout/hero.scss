@@ -1,4 +1,38 @@
-.hero{
+.hero {
+    padding: 208px 0px 183px;
     height: 680px;
-    background-image: url(../img/Slider-img-1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.4)), url(../img/Slider-img-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .hero-title {
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 1.2;
+        letter-spacing: 0.05em;
+        color: var(--clr-primary-inverted);
+    }
+    .hero-title-color {
+        color: aqua;
+    }
+    .hero-tagline {
+        color: var(--clr-primary-inverted);
+        gap: 34px;
+        margin-bottom: 0;
+    }
+    .hero-tagline::before {
+        content: "";
+        width: 1px;
+        height: 60px;
+        background-color: aqua;
+        transform: rotate(90deg);
+        margin-left: 32px;
+    }
+    .hero-text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.7;
+        letter-spacing: 0.02em;
+        color: var(--clr-primary-inverted);
+    }
 }

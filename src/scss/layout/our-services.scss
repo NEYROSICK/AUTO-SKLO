@@ -14,6 +14,10 @@
   background-color: rgba(31, 69, 207, 0.711);
   transform: rotate(90deg);
 }
+.why-us-title {
+  display: inline;
+  letter-spacing: 0.07em;
+}
 @media screen and (min-width: 175px) {
   .why-us-list-div {
     margin-top: 44px;
@@ -34,7 +38,7 @@
   }
 
   .why-us-item {
-    border-radius: 25%;
+    border-radius: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,9 +126,3 @@
     gap: 130px;
   }
 }
-// .why-us-just-text {
-//   font-weight: 600;
-//   color: var(--clr-primary-dark);
-//   font-size: 15px;
-//   text-align: center;
-// }

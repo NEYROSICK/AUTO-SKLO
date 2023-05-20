@@ -1,11 +1,13 @@
 footer {
-    background-color: #00308b;
+    // background-color: #00308b;
+    background-color: #001336;
     border-radius: 20px 20px 0 0;
-    // background: linear-gradient(
-    //   90deg,
-    //   rgba(30, 30, 30, 1) 0%,
-    //   rgba(60, 62, 71, 1) 100%
-    // );
+    background: linear-gradient(
+    45deg,
+    #001336 0%,
+    rgb(35, 44, 78) 100%
+  );
+  
   }
   
   .footer-container {
@@ -42,11 +44,11 @@ footer {
     transition: color 0.3s ease;
   }
 
-  .footer-logo:hover {
-    color: #FFDD00;
+ 
 
+  .footer-logo-span {
+    color:  var(--clr-brand-yellow);
   }
-
 //   .footer-logo-inverted {
 //     color: blue;
 //   }
@@ -88,7 +90,7 @@ footer {
   
   .footer-link:hover {
     cursor: pointer;
-    color: #FFDD00;
+    color: var(--clr-brand-yellow);
   }
   
   .footer-contact {
@@ -148,7 +150,7 @@ footer {
     display: flex;
     gap: 40px;
     align-items: center;
-    color: #b8d0fc;
+    color: var(--clr-brand-yellow);
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
@@ -171,7 +173,7 @@ footer {
       content: "";
       width: 60px;
       height: 1.4px;
-      background-color: #FFDD00;
+      background-color: var(--clr-brand-yellow);
     }
   }
   
@@ -179,7 +181,7 @@ footer {
     display: flex;
     gap: 40px;
     align-items: center;
-    color: #b8d0fc;
+    color: var(--clr-brand-yellow);
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
@@ -203,8 +205,8 @@ footer {
       display: block;
       content: "";
       width: 60px;
-      height: 1.9px;
-      background-color: #FFDD00
+      height: 1.4px;
+      background-color: var(--clr-brand-yellow)
       ;
       // transform: rotate(90deg);
     }
@@ -225,7 +227,7 @@ footer {
     display: flex;
     gap: 40px;
     align-items: center;
-    color: #b8d0fc;
+    color: var(--clr-brand-yellow);
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
@@ -248,7 +250,7 @@ footer {
       content: "";
       width: 60px;
       height: 1.4px;
-      background-color: #FFDD00;
+      background-color: var(--clr-brand-yellow);
     }
   }
   .footer-li {

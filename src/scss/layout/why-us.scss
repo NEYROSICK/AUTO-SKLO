@@ -1,0 +1,191 @@
+// ==========================================MOBILE =====================================
+.service-tagline {
+  display: flex;
+  gap: 60px;
+  height: 15px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  align-items: center;
+}
+.service-tagline::before {
+  content: "";
+  width: 1.4px;
+  height: 60px;
+  background-color: #00308b;
+  transform: rotate(90deg);
+}
+.service-title {
+  margin-bottom: 44px;
+}
+.service-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-item {
+  display: block;
+  border: 1px solid #e7e7de;
+  margin-bottom: 64px;
+}
+.service-item:last-child {
+  margin-bottom: 0;
+}
+.service-image {
+  display: block;
+  height: auto;
+  width: 100%;
+  max-width: 418px;
+  max-height: 346px;
+  border: 1px solid #e7e7de;
+}
+.subtitle-service {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.388;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #303030;
+  margin-bottom: 8px;
+}
+.descr-service {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.357;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #00308b;
+}
+
+// ==========================================TABLET =====================================
+@media screen and (min-width: 768px) {
+  .service-tagline {
+    display: flex;
+    gap: 60px;
+    height: 15px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  .service-tagline::before {
+    content: "";
+    width: 1.4px;
+    height: 60px;
+    background-color: #00308b;
+    transform: rotate(90deg);
+    margin-left: 120px;
+  }
+  .service-title {
+    margin-left: 120px;
+    margin-bottom: 44px;
+  }
+  .service-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-item {
+    display: block;
+    border: 1px solid #e7e7de;
+    margin-bottom: 64px;
+  }
+  .service-item:last-child {
+    margin-bottom: 0;
+  }
+  .service-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    max-height: 346px;
+    border: 1px solid #e7e7de;
+  }
+  .subtitle-service {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.388;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #303030;
+    margin-bottom: 8px;
+  }
+  .descr-service {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.357;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #00308b;
+    max-width: 418px;
+  }
+}
+// ==========================================DESK===========================================
+@media screen and (min-width: 1200px) {
+  .service-tagline {
+    display: flex;
+    gap: 60px;
+    height: 15px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    align-items: center;
+  }
+  .service-tagline::before {
+    content: "";
+    width: 1.4px;
+    height: 60px;
+    background-color: #00308b;
+    transform: rotate(90deg);
+    margin-left: 0;
+  }
+  .service-title {
+    margin-left: 0;
+    margin-bottom: 44px;
+  }
+  .service-list {
+    display: flex;
+    flex-direction: row;
+
+    gap: 30px;
+  }
+  .service-item {
+    display: block;
+    border: 1px solid #e7e7de;
+    margin-bottom: 0;
+    align-items: center;
+    flex-basis: calc((100% - 60px) / 3);
+  }
+  .service-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 370px;
+    max-height: 346px;
+    border: 1px solid #e7e7de;
+  }
+  .subtitle-service {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.388;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #303030;
+    margin-bottom: 8px;
+  }
+  .descr-service {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.357;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #00308b;
+    max-width: 418px;
+  }
+}
+.service-text {
+  align-items: center;
+  padding: 30px 20px;
+}

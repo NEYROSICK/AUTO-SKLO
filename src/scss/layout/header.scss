@@ -11,7 +11,7 @@
         content: "";
         width: 1px;
         height: 60px;
-        background-color: var(--clr-brand);
+        background-color: var(--clr-brand-blue);
         transform: rotate(90deg);
         margin-left: 32px;
     }
@@ -30,7 +30,7 @@
     }
 
     .logo {
-        color: var(--clr-brand);
+        color: var(--clr-brand-blue);
     }
 
     .mobile-btn {
@@ -73,7 +73,7 @@
 
         .nav-list-item:hover,
         .nav-list-item:active {
-            color: var(--clr-brand);
+            color: var(--clr-brand-yellow);
         }
 
         .address {
@@ -91,19 +91,19 @@
             font-style: normal;
             justify-content: center;
             align-items: center;
-            gap: 12px;
+            gap: 4px;
             padding: 2px 0;
             transition: color 100ms ease-in;
         }
 
         .header-link-svg {
-            fill: currentColor;
-            width: 12px;
-            height: 12px;
+            stroke: currentColor;
+            width: 18px;
+            height: 18px;
         }
 
         .address-link:hover {
-            color: var(--clr-brand);
+            color: var(--clr-brand-yellow);
         }
         .address-link-svg {
             width: 18px;
@@ -128,7 +128,18 @@
             transition: background-color 100ms ease-in;
         }
         .header-btn:hover {
-            background-color: var(--clr-brand);
+            color: var(--clr-brand-blue);
+            background-color: var(--clr-brand-yellow);
+        }
+        .btn-link-svg {
+            width: 18px;
+            height: 18px;
+            fill: var(--clr-primary-inverted);
+            margin-right: 4px;
+            transition: stroke 100ms ease-in;
+        }
+        .header-btn:hover .btn-link-svg {
+            fill: var(--clr-brand-blue);
         }
     }
 
@@ -204,7 +215,7 @@
 
 .mobile-nav-item:hover,
 .mobile-nav-item:active {
-    color: var(--clr-brand);
+    color: var(--clr-brand-blue);
 }
 
 .address-mobile {
@@ -226,10 +237,18 @@
 }
 .mobile-address-link:hover,
 .mobile-address-link:active {
-    color: var(--clr-brand);
+    color: var(--clr-brand-blue);
 }
 .map-svg {
     width: 20px;
     height: 20px;
-    stroke: black;
+    stroke: currentColor;
+    stroke-width: 2px;
+}
+.address-link-svg-mobile {
+    width: 18px;
+    height: 18px;
+    stroke: currentColor;
+    stroke-width: 2px;
+    margin-right: 4px;
 }

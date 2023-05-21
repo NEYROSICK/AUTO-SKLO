@@ -6,10 +6,12 @@ table {
 }
 
 .services-prices-section {
+  position: relative;
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(../img/car-wiper-with-sunset.jpg);
+    url(../img/car-window-front.jpg);
   background-position: center;
   background-size: cover;
+  // filter: blur(8px);
 }
 
 .services-prices-tagline {

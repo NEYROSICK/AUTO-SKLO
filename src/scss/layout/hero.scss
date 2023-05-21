@@ -1,42 +1,53 @@
 .hero {
-    padding: 234px 0px 170px 0px;
+  padding: 234px 0px 170px 0px;
 
-    border-radius: 0 0 20px 20px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.4)), url(../img/windshield-2.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  border-radius: 0 0 20px 20px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.4),
+      rgba(46, 47, 66, 0.4)
+    ),
+    url(../img/windshield-2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-    @media screen and (min-width: 175px) {
-        .hero-title {
-            font-weight: 700;
-            line-height: 56px;
-            letter-spacing: 0.05em;
-            color: var(--clr-primary-inverted);
-        }
+  @media screen and (min-width: 175px) {
+    .hero-title {
+      font-weight: 700;
+      line-height: 56px;
+      letter-spacing: 0.05em;
+      color: var(--clr-primary-inverted);
+    }
 
-        .hero-text {
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 1.7;
-            letter-spacing: 0.02em;
-            color: var(--clr-primary-inverted);
-        }
+    .hero-text {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.7;
+      letter-spacing: 0.02em;
+      color: var(--clr-primary-inverted);
     }
-    @media screen and (min-width: 336px) {
-        .hero-title {
-            font-size: 48px;
-        }
+  }
+  @media screen and (min-width: 336px) {
+    .hero-title {
+      font-size: 48px;
     }
-    @media screen and (min-width: 768px) {
-        .hero-title {
-            font-size: 72px;
-            line-height: 1.2;
-        }
+  }
+  @media screen and (min-width: 768px) {
+    .hero-title {
+      font-size: 72px;
+      line-height: 1.2;
     }
-    @media screen and (min-width: 1200px) {
-        .hero {
-            padding: 356px 0px 158px 144px;
-        }
-    }
+  }
+}
+
+@media screen and (min-width: 758px) {
+  .hero {
+    padding: 264px 0px 200px 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding: 356px 0px 158px 144px;
+  }
 }

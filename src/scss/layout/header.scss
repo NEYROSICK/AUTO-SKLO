@@ -24,11 +24,15 @@
     }
     .main-logo {
         font-weight: 700;
-        font-size: 40px;
+        font-size: 26px;
         color: var(--clr-primary-inverted);
         padding: 28px 0;
     }
-
+    @media screen and (min-width: 480px) {
+        .main-logo {
+            font-size: 40px;
+        }
+    }
     .logo {
         color: var(--clr-brand-yellow);
     }

@@ -55,14 +55,14 @@ footer {
   
   .footer-map {
     border-radius: 15px;
-    width: 300px;
+    width: 260px;
     height: 100%;
   }
   
   @media screen and (min-width: 768px) {
     .footer-map {
       width: 350px;
-      height: 310px;
+      height: 370px;
     }
   }
   
@@ -118,14 +118,14 @@ footer {
       align-items: baseline;
       flex-wrap: wrap;
       column-gap: 50px;
-      height: 310px;
+      height: 370px;
     }
   }
   
   @media screen and (min-width: 1200px) {
     .contacts-list {
-      column-gap: 140px;
-      height: 350px;
+      column-gap: 120px;
+      height: 370px;
     }
   }
   
@@ -221,6 +221,13 @@ footer {
     font-size: 18px;
     line-height: 1.67;
     letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  @media screen and (min-width:768px) {
+    .schedule {
+      text-align: start;
+    }
   }
   
   .footer-contacts-title {
@@ -269,13 +276,13 @@ footer {
   @media screen and (min-width: 768px) {
     .footer-map-li {
       margin-bottom: 0;
-      height: 310px;
+      height: 370px;
     }
   }
   
   @media screen and (min-width: 1200px) {
     .footer-map-li {
-      height: 350px;;
+      height: 370px;;
     }
   }
   

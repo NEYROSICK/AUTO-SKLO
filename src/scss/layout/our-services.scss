@@ -5,13 +5,14 @@
 .why-tagline {
   display: flex;
   gap: 40px;
+  color: var(--clr-brand-blue);
 }
 .why-tagline::before {
   content: "";
   margin-left: 30px;
   width: 1.4px;
   height: 60px;
-  background-color: rgba(31, 69, 207, 0.711);
+  background-color: var(--clr-brand-blue);
   transform: rotate(90deg);
 }
 .why-us-title {

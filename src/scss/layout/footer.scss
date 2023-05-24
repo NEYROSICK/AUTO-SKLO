@@ -36,7 +36,7 @@ footer {
   .footer-logo {
     color: var(--clr-primary-inverted);
     font-weight: 700;
-    font-size: 42px;
+    font-size: 36px;
     line-height: 49px;
     text-align: center;
     letter-spacing: 0.05em;
@@ -44,7 +44,11 @@ footer {
     transition: color 0.3s ease;
   }
 
- 
+ @media screen and (min-width:768px) {
+    .footer-logo {
+      font-size: 42px;
+    }
+ }
 
   .footer-logo-span {
     color:  var(--clr-brand-yellow);
@@ -75,7 +79,7 @@ footer {
   .footer-link {
     display: flex;
     align-items: center;
-    gap: 15px;
+    // gap: 15px;
     color: var(--clr-primary-inverted);
     text-decoration: none;
     font-style: normal;
@@ -290,6 +294,7 @@ footer {
     width: 31px;
     height: 24px;
     stroke: currentColor;
+    flex-shrink: 0;
   }
   
   .footer-adr-li{
@@ -304,6 +309,38 @@ footer {
       }
       
   
-  .footer-addr-li {
-    max-width: 310px;
+  // .footer-addr-li {
+  //   padding-left: 35px;
+  // }
+
+  .footer-map-icon {
+    position: absolute;
+    left: 30px;
+  
+  }
+
+  @media screen and (min-width:330px) {
+    .footer-map-icon {
+      left: 5px;
+    }
+  }
+
+  @media screen and (min-width:768px) {
+    .footer-map-icon {
+      position: static;
+    }
+  }
+
+  .footer-address-icon-container{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding-left: 35px;
+    max-width: 300px;
+  }
+  
+  @media screen and (min-width:768px) {
+    .footer-address-icon-container {
+      padding-left: 0;
+    }
   }

@@ -192,10 +192,16 @@
   }
 }
 .service-text {
-  align-items: center;
+  // align-items: center;
   padding: 30px 20px;
   border-top: 1px solid #e7e7de;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
+}
+
+@media (min-width: 1200px) {
+  .service-text {
+    height: 148px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
